@@ -1,0 +1,31 @@
+name: main
+on: [push]
+jobs:
+  run:
+    name: run
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [ubuntu-latest]
+    steps:
+    - uses: actions/checkout@master
+
+    - name: setup-node
+      uses: actions/setup-node@master
+      with:
+        version: 12.x
+
+    - name: yarn
+      run: yarn
+
+    - name: format
+      run: yarn format
+
+    - name: lint
+      run: yarn lint
+
+    - name: test
+      run: yarn test
+
+    - name: npm test
+      run: npm test
