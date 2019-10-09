@@ -41,7 +41,7 @@ export const derive = async (config: Config) => {
       const { filename } = meta
       const profile = await create(filename)
       const metric = fromProfile(profile)
-      const csvStream = createCsvWriteStream({ headers: true })
+      const csvStream = createCsvWriteStream({ headers: fileOrderIndex === 0 })
       csvStream.pipe(process.stdout)
       Object.entries(metric).forEach(([functionName, metricValue]) =>
         csvStream.write({ functionName, filename, fileOrderIndex, ...metricValue })
