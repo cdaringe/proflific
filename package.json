@@ -43,7 +43,7 @@
     "standard": "14.3.1",
     "standardx": "5.0.0",
     "ts-node": "8.4.1",
-    "typescript": "3.6.3"
+    "typescript": "3.6.4"
   },
   "eslintConfig": {
     "rules": {
