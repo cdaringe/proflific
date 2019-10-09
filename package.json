@@ -1,0 +1,75 @@
+{
+  "name": "proflific",
+  "dependencies": {
+    "bluebird": "^3.7.0",
+    "cpuprofile": "^0.1.1",
+    "fast-csv": "^3.4.0",
+    "fp-ts": "^2.1.0",
+    "fs-extra": "^8.1.0",
+    "io-ts": "^2.0.1",
+    "lodash": "^4.17.15",
+    "meow": "^5.0.0",
+    "typescript-natural-sort": "^0.7.2"
+  },
+  "scripts": {
+    "test": "ava",
+    "format": "prettier-standard '{src,test,scripts}/**/*.{js,jsx,ts,tsx}'",
+    "lint": "standardx '{src,test,scripts}/**/*.{js,jsx,ts,tsx}' --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{src,test,scripts}/**/*.{js,jsx,ts,tsx}": [
+      "yarn format",
+      "yarn lint",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.27",
+    "@types/fs-extra": "^8.0.0",
+    "@types/lodash": "^4.14.142",
+    "@types/meow": "^5.0.0",
+    "@types/node": "^12.7.11",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "ava": "^2.4.0",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.2",
+    "prettier-standard": "^15.0.1",
+    "standard": "^14.3.1",
+    "standardx": "^5.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": 0
+    }
+  },
+  "standardx": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin"
+    ],
+    "ignore": [
+      "**/*.d.ts"
+    ]
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "files": [
+      "test/**.test.ts"
+    ],
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "tap": true
+  }
+}
