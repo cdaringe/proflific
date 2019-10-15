@@ -1,7 +1,7 @@
 {
   "name": "proflific",
   "dependencies": {
-    "bluebird": "3.7.0",
+    "bluebird": "3.7.1",
     "cpuprofile": "0.1.1",
     "fast-csv": "3.4.0",
     "fp-ts": "2.1.0",
