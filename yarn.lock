@@ -1817,10 +1817,10 @@ flatted@^2.0.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
   integrity sha512-a1hQMktqW9Nmqr5aktAux3JMNqaucxGcjtjWnZLHX7yyPCmlSV3M54nGYbqT8K+0GhF3NBgmJCc3ma+WOgX8Jg==
 
-fp-ts@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.1.0.tgz#dac1b13ade6d52deb823bee53e99e3a804cc6e05"
-  integrity sha512-2xTHhLuP0uLjpaHAARpGQ1TpIPqEUMu8fGN5jv8py0T+HgB6a4bV57p5EQoOyeHws4SuYxiUi2/m0isHs6F/cA==
+fp-ts@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.1.1.tgz#c910544499d7c959351bb4260ee7c44a544084c1"
+  integrity sha512-YcWhMdDCFCja0MmaDroTgNu+NWWrrnUEn92nvDgrtVy9Z71YFnhNVIghoHPt8gs82ijoMzFGeWKvArbyICiJgw==
 
 fs-extra@8.1.0:
   version "8.1.0"
