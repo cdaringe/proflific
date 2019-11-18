@@ -31,7 +31,7 @@
   "devDependencies": {
     "@types/bluebird": "3.5.29",
     "@types/fs-extra": "8.0.1",
-    "@types/lodash": "4.14.148",
+    "@types/lodash": "4.14.149",
     "@types/meow": "5.0.0",
     "@types/node": "12.12.8",
     "@typescript-eslint/eslint-plugin": "2.8.0",
