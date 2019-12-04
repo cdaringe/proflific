@@ -4755,10 +4755,10 @@ typescript-natural-sort@0.7.2:
   resolved "https://registry.yarnpkg.com/typescript-natural-sort/-/typescript-natural-sort-0.7.2.tgz#4a9ddc6b4ba0d959da0cb45fb7542412554d9ccd"
   integrity sha512-C8gaSIZySgJ+PchvslIJ6j5wcUIKPsGMzUm1gbFSmKjk+YkXTYPLlFc8UJHp2mvUadF80pWPgsxsAOPIP3TZ4g==
 
-typescript@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.2.tgz#27e489b95fa5909445e9fef5ee48d81697ad18fb"
-  integrity sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+typescript@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
+  integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
 
 uglify-js@^3.1.4:
   version "3.7.0"
