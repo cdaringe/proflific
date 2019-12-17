@@ -1869,10 +1869,10 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-fast-csv@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-3.5.0.tgz#442ee7c2fb2bd30f7776707fa8b4f9f1599016e0"
-  integrity sha512-1qzK/07bPusoTFriMlj4qP3maPoMc9EUmiWbLh2ZkfLCcdHst0jzniaBuxDQl+2ZFpSPHhG1K1e34UDb92C8wQ==
+fast-csv@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-3.6.0.tgz#097ea8b67de32ac2773968ca214f7f5b7502e29f"
+  integrity sha512-Fm63KO2UMx5mEF2WqIdAIVMuQafv1uwU+TtAWtgusyXa6HL2iwi3YYk+G8iEsuhwKJ3EVGFBurjI+WhN1jnoFw==
   dependencies:
     "@types/node" "^12.12.17"
     lodash.escaperegexp "^4.1.2"
