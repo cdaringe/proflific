@@ -300,6 +300,29 @@
   dependencies:
     arrify "^1.0.1"
 
+"@fast-csv/format@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@fast-csv/format/-/format-4.0.1.tgz#e320ba3d4404dfc35420202360cedd47efa71d7c"
+  integrity sha512-TiRyKLg64gE0l+NIyAj7MXoZ3wy3Je2wUtzdLL5ftsxgsIfHb1n77niokt5qQ2OFbv2bq0RIX7OQ2AIUwCO1gA==
+  dependencies:
+    lodash.escaperegexp "^4.1.2"
+    lodash.isboolean "^3.0.3"
+    lodash.isequal "^4.5.0"
+    lodash.isfunction "^3.0.9"
+    lodash.isnil "^4.0.0"
+
+"@fast-csv/parse@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@fast-csv/parse/-/parse-4.0.1.tgz#77f460e71812ab06a4a470932a95cffc2ec4ed7c"
+  integrity sha512-R4J9AVYAWBQ/LIin6+98bcCcvR/CfNfgYNUKCh9E+xRMtTBDcfKMxhnlgqxiaAODSZ5NMZlOTcS5X0tGTUh9MQ==
+  dependencies:
+    lodash.escaperegexp "^4.1.2"
+    lodash.groupby "^4.6.0"
+    lodash.isfunction "^3.0.9"
+    lodash.isnil "^4.0.0"
+    lodash.isundefined "^3.0.1"
+    lodash.uniq "^4.5.0"
+
 "@glimmer/interfaces@^0.41.0":
   version "0.41.4"
   resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.41.4.tgz#3f3e26abea8a4e1463130e9a75e94372781d154b"
@@ -1869,21 +1892,14 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-fast-csv@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-3.7.0.tgz#7f737115b77b19c1576432e6e5eae457f3eb7129"
-  integrity sha512-vCuVnDX0yjJEpSuQxZW0+Wf7aL8P7EtRzUgmLqpjwooza7mgpfKs2hwuV7nSdmjcb3f0abCp3jJY+E5Ws3piDw==
+fast-csv@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-4.0.1.tgz#b304fc4da7f53796b5616031dfd8d3af8e383c11"
+  integrity sha512-ia0C++BWjiEvad6n1iqqzs1YxWNQ5o0OE1eeGy+t0Dw+qHY0mV8cM0sJdri1HXdl2lVSpi0/hxJlj4r7FwIMzg==
   dependencies:
+    "@fast-csv/format" "^4.0.1"
+    "@fast-csv/parse" "^4.0.1"
     "@types/node" "^12.12.17"
-    lodash.escaperegexp "^4.1.2"
-    lodash.groupby "^4.6.0"
-    lodash.isboolean "^3.0.3"
-    lodash.isequal "^4.5.0"
-    lodash.isfunction "^3.0.9"
-    lodash.isnil "^4.0.0"
-    lodash.isstring "^4.0.1"
-    lodash.isundefined "^3.0.1"
-    lodash.uniq "^4.5.0"
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
@@ -3032,11 +3048,6 @@ lodash.isnil@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/lodash.isnil/-/lodash.isnil-4.0.0.tgz#49e28cd559013458c814c5479d3c663a21bfaa6c"
   integrity sha1-SeKM1VkBNFjIFMVHnTxmOiG/qmw=
-
-lodash.isstring@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
-  integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
 
 lodash.isundefined@^3.0.1:
   version "3.0.1"
