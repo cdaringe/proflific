@@ -42,7 +42,7 @@
     "prettier-standard": "16.2.1",
     "standard": "14.3.3",
     "standardx": "5.0.0",
-    "ts-node": "8.6.2",
+    "ts-node": "8.7.0",
     "typescript": "3.8.3"
   },
   "eslintConfig": {
