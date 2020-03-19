@@ -5,7 +5,7 @@
     "cpuprofile": "0.1.1",
     "fast-csv": "4.1.3",
     "fp-ts": "2.5.3",
-    "fs-extra": "8.1.0",
+    "fs-extra": "9.0.0",
     "io-ts": "2.1.2",
     "lodash": "4.17.15",
     "meow": "6.0.1",
