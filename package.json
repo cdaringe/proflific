@@ -39,7 +39,7 @@
     "ava": "2.4.0",
     "husky": "4.2.5",
     "lint-staged": "10.1.7",
-    "prettier-standard": "16.2.1",
+    "prettier-standard": "16.3.0",
     "standard": "14.3.3",
     "standardx": "5.0.0",
     "ts-node": "8.9.0",
