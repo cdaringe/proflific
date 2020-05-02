@@ -8,7 +8,7 @@
     "fs-extra": "9.0.0",
     "io-ts": "2.2.1",
     "lodash": "4.17.15",
-    "meow": "6.1.0",
+    "meow": "6.1.1",
     "typescript-natural-sort": "0.7.2"
   },
   "scripts": {
