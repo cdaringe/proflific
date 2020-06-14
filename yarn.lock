@@ -2633,10 +2633,10 @@ inquirer@^7.0.0:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-io-ts@2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/io-ts/-/io-ts-2.2.4.tgz#c9b5390b8c60b9976ad03f670a6b976fe50d4083"
-  integrity sha512-a8A/3jekTgSPfQ+OG40sTiX2gohXZz89X1+TfKsWJ/vpA2dBilBkrGYPiDE8OaKMMG7xm5ma3SAZL5eNr4Bi2w==
+io-ts@2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/io-ts/-/io-ts-2.2.5.tgz#c402baf3c1d1584561cd215a1abaccc0baf4718e"
+  integrity sha512-ctkzWw78sol75+KNkCrTjjgWwLjG77LzUNaelPbcJVao7THmmTIr6hW+rGJPK2EMtG1Pkt/G1sJVYyylEaOwPw==
 
 irregular-plurals@^2.0.0:
   version "2.0.0"
