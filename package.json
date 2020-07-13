@@ -6,7 +6,7 @@
     "fast-csv": "4.3.1",
     "fp-ts": "2.7.0",
     "fs-extra": "9.0.1",
-    "io-ts": "2.2.7",
+    "io-ts": "2.2.8",
     "lodash": "4.17.19",
     "meow": "7.0.1",
     "typescript-natural-sort": "0.7.2"
