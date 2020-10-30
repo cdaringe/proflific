@@ -360,22 +360,24 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fast-csv/format@4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@fast-csv/format/-/format-4.3.1.tgz#e550731487002e0d1bac13422dd8506cdfd60f50"
-  integrity sha512-Ap6KSt0iJlzrivZU4grQzDGGOQ+vN5kvUeOHLF1BE7nWri1auiodgS3SCffvLe1Zvu79tACe1tw3dyBADk1NsA==
+"@fast-csv/format@4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@fast-csv/format/-/format-4.3.3.tgz#9161b4b968fa31baad83af7249bcfec298f6b35c"
+  integrity sha512-M1+28HMRQN5Mx16pN5pchepmeoxAI9BkecFhmFCHKzkeliN3WPcs6kK7pA2EshQm7cqscNIlkoZQF7k5u8reWg==
   dependencies:
+    "@types/node" "^14.0.1"
     lodash.escaperegexp "^4.1.2"
     lodash.isboolean "^3.0.3"
     lodash.isequal "^4.5.0"
     lodash.isfunction "^3.0.9"
     lodash.isnil "^4.0.0"
 
-"@fast-csv/parse@4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@fast-csv/parse/-/parse-4.3.2.tgz#55caaee17431b9ba655c0aef7b453305e7b5039d"
-  integrity sha512-smFKL1E00zy6SB+MIRL4kJq4ba4Is9mHEf+1kdMH7iLInrKszADyJFGicoRfiFTtAvm+661LJMWjyQHrmx6WeA==
+"@fast-csv/parse@4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@fast-csv/parse/-/parse-4.3.3.tgz#1ab4443213a63ced960fd618ea476e4e51f0f8df"
+  integrity sha512-mXrCmyyZxbcdW/kZ8tVMrb1DJrJMNGWxHmB4OSuEL96so/X14E1O0w5QFiyodfs+oXoNGwbku8bx2Lq2tiODAA==
   dependencies:
+    "@types/node" "^14.0.1"
     lodash.escaperegexp "^4.1.2"
     lodash.groupby "^4.6.0"
     lodash.isfunction "^3.0.9"
@@ -2257,14 +2259,13 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-fast-csv@4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-4.3.2.tgz#855e28d034310f8aae10f959bfea0a60d34540fb"
-  integrity sha512-tmvVMsliprsl7P1z++XuhfGZPTz/h2sTLhs5PYVhtOSsu7t0T2q1TdWq/CORQsD9Cc2oPiTchpf7gACLXArNYQ==
+fast-csv@4.3.3:
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-4.3.3.tgz#d477298c33d55b087a8022e57cfd1c6a4e07c0fa"
+  integrity sha512-3PRl8eYlxnIPNCholPzaofpAPLpWv54HlgC2qbZHGRtGlcYRh/91IXKdrOgQbH9Sari1vKmZSt6UR38L4hJu+g==
   dependencies:
-    "@fast-csv/format" "4.3.1"
-    "@fast-csv/parse" "4.3.2"
-    "@types/node" "^14.0.1"
+    "@fast-csv/format" "4.3.3"
+    "@fast-csv/parse" "4.3.3"
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
