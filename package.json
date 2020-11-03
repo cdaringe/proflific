@@ -3,7 +3,7 @@
   "dependencies": {
     "bluebird": "3.7.2",
     "cpuprofile": "0.1.1",
-    "fast-csv": "4.3.3",
+    "fast-csv": "4.3.5",
     "fp-ts": "2.8.5",
     "fs-extra": "9.0.1",
     "io-ts": "2.2.12",
