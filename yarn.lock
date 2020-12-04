@@ -356,10 +356,10 @@
     lodash.isfunction "^3.0.9"
     lodash.isnil "^4.0.0"
 
-"@fast-csv/parse@4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@fast-csv/parse/-/parse-4.3.3.tgz#1ab4443213a63ced960fd618ea476e4e51f0f8df"
-  integrity sha512-mXrCmyyZxbcdW/kZ8tVMrb1DJrJMNGWxHmB4OSuEL96so/X14E1O0w5QFiyodfs+oXoNGwbku8bx2Lq2tiODAA==
+"@fast-csv/parse@4.3.6":
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/@fast-csv/parse/-/parse-4.3.6.tgz#ee47d0640ca0291034c7aa94039a744cfb019264"
+  integrity sha512-uRsLYksqpbDmWaSmzvJcuApSEe38+6NQZBUsuAyMZKqHxH0g1wcJgsKUvN3WC8tewaqFjBMMGrkHmC+T7k8LvA==
   dependencies:
     "@types/node" "^14.0.1"
     lodash.escaperegexp "^4.1.2"
@@ -2228,13 +2228,13 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-fast-csv@4.3.5:
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-4.3.5.tgz#b62d8303fc0d7ccd56f9d8650c1b5144ea5bddad"
-  integrity sha512-7csO4GADMDhVcf8UI5/TPdZbNkeToUx2HaRC1KPxYNWjAZ/SAFBBRJGhzlDWg0vgKm92toH6gR7+tsMcc0Fx8Q==
+fast-csv@4.3.6:
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/fast-csv/-/fast-csv-4.3.6.tgz#70349bdd8fe4d66b1130d8c91820b64a21bc4a63"
+  integrity sha512-2RNSpuwwsJGP0frGsOmTb9oUF+VkFSM4SyLTDgwf2ciHWTarN0lQTC+F2f/t5J9QjW+c65VFIAAu85GsvMIusw==
   dependencies:
     "@fast-csv/format" "4.3.5"
-    "@fast-csv/parse" "4.3.3"
+    "@fast-csv/parse" "4.3.6"
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
