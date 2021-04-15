@@ -2373,10 +2373,10 @@ flow-parser@0.111.3:
   resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.111.3.tgz#4c256aa21a5dbb53d5305e3512cc120659ca08f3"
   integrity sha512-iEjGZ94OBMcESxnLorXNjJmtd/JtQYXUVrQpfwvtAKkuyawRmv+2LM6nqyOsOJkISEYbyY6ziudRE0u4VyPSVA==
 
-fp-ts@2.10.1:
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.10.1.tgz#aa87af8d3a57af325447a1110ea5f5d3c9b881b3"
-  integrity sha512-5Fa35jOD3rGREJEVgp8w4kqbJBQpcLU6p7juzJTK0+SrGLK6b7g9XSBhHdW332AGr2GoyOocc6jifKk6L7iIag==
+fp-ts@2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.10.2.tgz#1df0ccabf10a611a9c64eccfd5d0ae0ea0fc13ea"
+  integrity sha512-YB/FSwESW8C3kVCbbyFiZSXXoQEJ/SaeHHorL6KCKHoPIPV6v/hyfMiXBPMjW7O7D9jfxlRs6VeCRonfqi1Tcg==
 
 fs-extra@9.1.0:
   version "9.1.0"
