@@ -4,7 +4,7 @@
     "bluebird": "3.7.2",
     "cpuprofile": "0.1.1",
     "fast-csv": "4.3.6",
-    "fp-ts": "2.10.1",
+    "fp-ts": "2.10.2",
     "fs-extra": "9.1.0",
     "io-ts": "2.2.16",
     "lodash": "4.17.21",
