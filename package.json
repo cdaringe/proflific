@@ -33,7 +33,7 @@
     "@types/fs-extra": "9.0.13",
     "@types/lodash": "4.14.182",
     "@types/meow": "5.0.0",
-    "@types/node": "16.11.43",
+    "@types/node": "16.11.44",
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "ava": "2.4.0",
