@@ -37,7 +37,7 @@
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "ava": "2.4.0",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "prettier-standard": "16.4.1",
     "standard": "16.0.4",
