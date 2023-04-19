@@ -2644,10 +2644,10 @@ flow-parser@0.111.3:
   resolved "https://registry.yarnpkg.com/flow-parser/-/flow-parser-0.111.3.tgz#4c256aa21a5dbb53d5305e3512cc120659ca08f3"
   integrity sha512-iEjGZ94OBMcESxnLorXNjJmtd/JtQYXUVrQpfwvtAKkuyawRmv+2LM6nqyOsOJkISEYbyY6ziudRE0u4VyPSVA==
 
-fp-ts@2.13.1:
-  version "2.13.1"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.13.1.tgz#1bf2b24136cca154846af16752dc29e8fa506f2a"
-  integrity sha512-0eu5ULPS2c/jsa1lGFneEFFEdTbembJv8e4QKXeVJ3lm/5hyve06dlKZrpxmMwJt6rYen7sxmHHK2CLaXvWuWQ==
+fp-ts@2.13.2:
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.13.2.tgz#60ad54d91f16452594b1e29cd8816eed929c83a4"
+  integrity sha512-diX6PbILL9SpFxuiB2w38e/jy20h7BwOtVRuohkGGni9lBnR61CBdUpm33/5RVgkz2nkAZ9MH3DMmJdlwOyDOA==
 
 fs-extra@11.1.1:
   version "11.1.1"
