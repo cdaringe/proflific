@@ -29,7 +29,7 @@
     ]
   },
   "devDependencies": {
-    "@types/bluebird": "3.5.41",
+    "@types/bluebird": "3.5.42",
     "@types/fs-extra": "11.0.3",
     "@types/lodash": "4.14.200",
     "@types/meow": "5.0.0",
